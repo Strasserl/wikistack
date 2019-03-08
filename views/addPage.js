@@ -34,13 +34,6 @@ module.exports = () => layout(html`
       </div>
     </div>
 
-    <div class="form-group">
-      <label for="status" class="col-sm-2 control-label">Status</label>
-      <div class="col-sm-10">
-        <input id="status" name="status" type="text" class="form-control"/>
-      </div>
-    </div>
-
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-primary">submit</button>
     </div>
